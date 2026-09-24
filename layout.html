@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout | CSS Lab</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="grid-layout">
+
+    <div class="grid-header">
+        <header class="navbar">
+            <a class="logo" href="index.html">
+                <img src="images/logo.png" alt="CSS Lab logo">
+                <span>CSS Lab</span>
+            </a>
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Flexbox</a></li>
+                    <li><a href="layout.html">Grid Layout</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <aside class="grid-sidebar">
+        <h2>Sidebar</h2>
+        <ul>
+            <li>Header area</li>
+            <li>Sidebar area</li>
+            <li>Main area</li>
+            <li>Footer area</li>
+        </ul>
+    </aside>
+
+    <main class="grid-main">
+        <h1>Page Layout with Grid Areas</h1>
+        <p>The parent container uses CSS Grid and named grid areas to place the header, sidebar, main content and footer.</p>
+
+        <div class="content-boxes">
+            <article class="content-box">
+                <h3>Header</h3>
+                <p>The header spans across the top of the page.</p>
+            </article>
+
+            <article class="content-box">
+                <h3>Sidebar</h3>
+                <p>The sidebar is placed on the left side.</p>
+            </article>
+
+            <article class="content-box">
+                <h3>Main</h3>
+                <p>The main content is placed on the right side.</p>
+            </article>
+
+            <article class="content-box">
+                <h3>Footer</h3>
+                <p>The footer spans across the bottom.</p>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <p>Task 2 — CSS Grid Areas</p>
+    </footer>
+
+</div>
+
+</body>
+</html>

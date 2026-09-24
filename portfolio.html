@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | CSS Lab</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <a class="logo" href="index.html">
+        <img src="images/logo.png" alt="CSS Lab logo">
+        <span>CSS Lab</span>
+    </a>
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Flexbox</a></li>
+            <li><a href="layout.html">Grid Layout</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="page">
+    <section class="page-title">
+        <h1>Portfolio</h1>
+        <p>This page combines Flexbox and Grid. Grid controls the main structure and Flexbox controls each project card.</p>
+    </section>
+
+    <section class="portfolio-main">
+
+        <div class="projects">
+            <article class="project-card">
+                <img src="images/proj1.jpg" alt="Dashboard project">
+                <div class="project-content">
+                    <h2>Dashboard UI</h2>
+                    <p>A responsive dashboard concept using semantic HTML and modern CSS layout techniques.</p>
+                    <a class="btn" href="gallery.html">View Gallery</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <img src="images/proj2.jpg" alt="Landing page project">
+                <div class="project-content">
+                    <h2>Landing Page</h2>
+                    <p>A clean landing page concept focused on spacing, alignment and responsive design.</p>
+                    <a class="btn" href="layout.html">View Layout</a>
+                </div>
+            </article>
+        </div>
+
+        <aside class="sidebar-card">
+            <h2>About</h2>
+            <p>This page demonstrates the combination of Flexbox and CSS Grid.</p>
+            <ul class="skill-list">
+                <li>Flexbox</li>
+                <li>Grid</li>
+                <li>Responsive</li>
+                <li>Hover</li>
+            </ul>
+        </aside>
+
+    </section>
+</main>
+
+<footer>
+    <p>Task 4 — Combining Flexbox &amp; Grid</p>
+</footer>
+
+</body>
+</html>
